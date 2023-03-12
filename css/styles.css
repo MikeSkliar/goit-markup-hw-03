@@ -4,12 +4,53 @@
 .link {
   text-decoration: none;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+.container {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* ========================HEADER============ */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-nav {
+  display: flex;
+}
+.page-header-container {
+  display: flex;
+}
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -19,6 +60,10 @@ body {
 }
 .contact-information {
   font-style: normal;
+  margin-left: auto;
+}
+.mail {
+  margin-right: 40px;
 }
 .contact-email-phone {
   font-style: normal;
@@ -59,17 +104,19 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
+.logo {
+  margin-right: 76px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
 
 /* ========================/HEADER============ */
 /* =========================HERO BLOCK======== */
-
 .hero {
-  /* position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px; */
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-promo {
   font-weight: 700;
@@ -78,26 +125,40 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .order-service-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
-  cursor: pointer;
+  padding-top: 14px;
+  display: flex;
+  padding-bottom: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 /* =========================/HERO BLOCK======== */
 /* =========================OUR UNICS SECTION======= */
+.our-unics-list {
+  display: flex;
+}
 .our-unics {
   color: #ffffff;
 }
@@ -107,12 +168,16 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .adavantage-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.menu-advantage:not(:last-child) {
+  margin-right: 24px;
 }
 /* =========================/OUR UNICS SECTION======= */
 /*==========================WHAT ARE WE DOING SECTION====== */
@@ -125,10 +190,26 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.photo-of-examples {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 /*==========================/WHAT ARE WE DOING SECTION====== */
 
 /*==========================OUR TEAM SECTION====== */
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.our-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .oue-team-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -137,6 +218,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .employee-name {
@@ -146,6 +228,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .employee-position {
   font-weight: 400;
@@ -158,6 +242,8 @@ body {
 /*==========================FOOTER====== */
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .why-choose-us {
   font-weight: 400;
@@ -191,7 +277,6 @@ body {
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   color: #4d5ae5;
-  cursor: pointer;
 }
 
 .finished-project-titles {
