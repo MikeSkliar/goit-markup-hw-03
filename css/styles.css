@@ -264,6 +264,9 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+.footer-logo-container {
+  margin-bottom: 16px;
+}
 /*==========================/FOOTER====== */
 /* ==========PORTFOLIO======== */
 /* ==========MAIN============= */
