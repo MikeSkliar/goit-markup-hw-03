@@ -251,6 +251,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 264px;
 }
 
 .second-part-logo-footer {
