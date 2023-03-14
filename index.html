@@ -17,29 +17,33 @@
 <!-- HEADER -->
 
 <body>
-    <header class="page-header container page-header-container">
-        <nav class="page-nav">
-            <a class="logo link first-part-logo" href="./index.html">Web<span class="second-part-logo">Studio</span>
+    <header class="page-header page-header-container">
+        <div class="container page-header-container">
+            <nav class="page-nav">
+                <a class="logo link first-part-logo" href="./index.html">Web<span class="second-part-logo">Studio</span>
 
-            </a>
+                </a>
 
-            <ul class="menu list page-header-container">
-                <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
-                <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-                <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-
-        <address class="contact-information">
-            <ul class="list page-header-container">
-
-                <li><a class="contact-email-phone link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="contact-email-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <ul class="menu list page-header-container">
+                    <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
 
 
-            </ul>
-        </address>
+
+            <address class="contact-information">
+                <ul class="list page-header-container">
+
+                    <li><a class="contact-email-phone link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li><a class="contact-email-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+
+
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
         <!-- Hero Block -->
@@ -53,7 +57,7 @@
         </section>
 
         <!-- Our Advantages section -->
-        <section class="container section">
+        <section class="container section section-no-btm-pudding">
             <h2 hidden class="our-unics">Our Unics</h2>
             <ul class="list our-unics-list">
                 <li class="menu-advantage">
@@ -89,15 +93,20 @@
             </ul>
         </section>
         <!-- What Are We doing Section -->
-        <section class="container section">
-            <h2 class="project-examples">What are we doing</h2>
-            <ul class="list photo-of-examples">
-                <li><img src="./images/mac-software.jpg" alt="We develop software for Ios platform" width="360"></li>
-                <li><img src="./images/mobile-aps.jpg" alt="We develop software for mobile devices" width="360"></li>
-                <li><img src="./images/any-platform-solutions.jpg" alt="We develop software for any platform"
-                        width="360">
-                </li>
-            </ul>
+        <section class="section">
+            <div class="container">
+                <h2 class="project-examples">What are we doing</h2>
+                <ul class="list photo-of-examples">
+                    <li><img src="./images/mac-software.jpg" alt="We develop software for Ios platform" width="360">
+                    </li>
+                    <li><img src="./images/mobile-aps.jpg" alt="We develop software for mobile devices" width="360">
+                    </li>
+                    <li><img src="./images/any-platform-solutions.jpg" alt="We develop software for any platform"
+                            width="360">
+                    </li>
+                </ul>
+            </div>
+
 
         </section>
         <!-- Our Team Section -->
@@ -107,23 +116,33 @@
                 <ul class="list list-container">
                     <li><img class="employee-photo" src="./images/mark-guerrero.jpg" alt="The photo of our designer"
                             width="264" height="260">
-                        <h3 class="employee-name">Mark Guerrero</h3>
-                        <p class="employee-position">Product Designer</p>
+                        <div class="name-position-text">
+                            <h3 class="employee-name">Mark Guerrero</h3>
+                            <p class="employee-position">Product Designer</p>
+                        </div>
+
                     </li>
                     <li><img class="employee-photo" src="./images/tom-ford.jpg"
                             alt="The photo of our frontend developer" width="264" height="260">
-                        <h3 class="employee-name">Tom Ford</h3>
-                        <p class="employee-position">Frontend Developer</p>
+                        <div class="name-position-text">
+                            <h3 class="employee-name">Tom Ford</h3>
+
+                            <p class="employee-position">Frontend Developer</p>
+                        </div>
                     </li>
                     <li><img class="employee-photo" src="./images/camila-garcia.jpg"
                             alt="The photo of our marketing team member" width="264" height="260">
-                        <h3 class="employee-name">Camila Garcia</h3>
-                        <p class="employee-position">Marketing</p>
+                        <div class="name-position-text">
+                            <h3 class="employee-name">Camila Garcia</h3>
+                            <p class="employee-position">Marketing</p>
+                        </div>
                     </li>
                     <li><img class="employee-photo" src="./images/daniel-wilson.jpg" alt="The photo of our ui designer"
                             width="264" height="260">
-                        <h3 class="employee-name">Daniel Wilson</h3>
-                        <p class="employee-position">UI Designer</p>
+                        <div class="name-position-text">
+                            <h3 class="employee-name">Daniel Wilson</h3>
+                            <p class="employee-position">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>

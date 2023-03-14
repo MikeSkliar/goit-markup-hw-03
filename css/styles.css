@@ -29,7 +29,7 @@ body {
   color: #434455;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -50,6 +50,7 @@ body {
 }
 .page-header-container {
   display: flex;
+  column-gap: 40px;
 }
 .menu-link {
   font-weight: 500;
@@ -62,9 +63,7 @@ body {
   font-style: normal;
   margin-left: auto;
 }
-.mail {
-  margin-right: 40px;
-}
+
 .contact-email-phone {
   font-style: normal;
   font-weight: 400;
@@ -99,6 +98,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -109,6 +109,9 @@ body {
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
+}
+.portfolio-page-header-bottom-line {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* ========================/HEADER============ */
@@ -170,12 +173,16 @@ body {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+.section-no-btm-pudding {
+  padding-bottom: 0px;
+}
 .adavantage-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .menu-advantage:not(:last-child) {
   margin-right: 24px;
 }
@@ -194,7 +201,7 @@ body {
 }
 .photo-of-examples {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
   flex-wrap: wrap;
 }
 /*==========================/WHAT ARE WE DOING SECTION====== */
@@ -203,13 +210,18 @@ body {
 .list-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 32px;
+  /* justify-content: space-between; */
 }
 .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+/* .name-position-text {
+  padding: 0;
+} */
 .oue-team-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -284,9 +296,8 @@ body {
   width: 116px;
   height: 48px;
 
-  /* CLOUD */
   background: #f4f4fd;
-  /* CORNFLOWER */
+
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
@@ -324,9 +335,10 @@ body {
   justify-content: center;
 }
 .service-type-btn {
-  margin-right: 24px;
-  margin-bottom: 72px;
-  margin-top: 96px;
+  /* margin-right: 24px; */
+  /* margin-bottom: 72px;
+  margin-top: 96px; */
+  /* padding: 0; */
 }
 .service-type-btn:hover,
 .service-type-btn:focus {
