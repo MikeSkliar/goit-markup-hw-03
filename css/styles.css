@@ -293,18 +293,14 @@ body {
   align-items: center;
   padding: 12px 24px;
   color: #4d5ae5;
-  width: 116px;
-  height: 48px;
-
   background: #f4f4fd;
-
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 .service-type-pictures-and-description {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 24px;
 }
 .service-type-pictures {
   margin-bottom: 32px;
@@ -335,7 +331,9 @@ body {
   justify-content: center;
 }
 .service-type-btn {
-  /* margin-right: 24px; */
+  margin-right: 24px;
+  padding: 12, 24;
+  margin-bottom: 72px;
   /* margin-bottom: 72px;
   margin-top: 96px; */
   /* padding: 0; */
