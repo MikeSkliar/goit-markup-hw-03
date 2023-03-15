@@ -98,7 +98,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -106,9 +105,6 @@ body {
 }
 .logo {
   margin-right: 76px;
-}
-.menu-item:not(:last-child) {
-  margin-right: 40px;
 }
 .portfolio-page-header-bottom-line {
   border-bottom: 1px solid #e7e9fc;
@@ -176,11 +172,8 @@ body {
 .section-no-btm-pudding {
   padding-bottom: 0px;
 }
-.adavantage-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.menu-advantage {
+  width: 264px;
 }
 
 .menu-advantage:not(:last-child) {
@@ -224,6 +217,8 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .oue-team-section-title {
   font-weight: 700;
@@ -243,7 +238,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
+  /* padding-top: 32px; */
   /* margin-top: 32px; */
   margin-bottom: 8px;
 }
@@ -253,7 +248,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 /*==========================/OUR TEAM SECTION====== */
 /*==========================FOOTER====== */
@@ -290,8 +285,13 @@ body {
 /*==========================/FOOTER====== */
 /* ============================================PORTFOLIO======== */
 /* ==========================================MAIN============= */
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .service-type-btn {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -322,7 +322,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-top: 32px;
+  /* padding-top: 32px; */
 }
 .sphere-and-product {
   font-family: "Roboto";
@@ -332,16 +332,17 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 .service-buttons-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
 }
 .service-type-btn {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   padding: 12, 24;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   /* margin-bottom: 72px;
   margin-top: 96px; */
   /* padding: 0; */
@@ -355,4 +356,9 @@ body {
   border: 1px solid #e7e9fc;
   border-top: 1px solid #ffffff;
   padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.buttons-specs {
+  margin-right: 24px;
 }
